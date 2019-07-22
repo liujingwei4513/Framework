@@ -17,5 +17,37 @@
         <module>fw-core</module>
     </modules>
 
+    <properties>
+        <mybatis_version>3.4.2</mybatis_version>
+        <log4j_version>1.2.17</log4j_version>
+        <gson_version>2.8.5</gson_version>
+    </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <!-- mybatis -->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>${spring_mybatis_version}</version>
+            </dependency>
+            <!-- log4j -->
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j_version}</version>
+            </dependency>
+            <!-- gson -->
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>${gson_version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

@@ -13,5 +13,8 @@
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>业务服务层</description>
+    <modules>
+        <module>fw-service-user</module>
+    </modules>
 
 </project>
