@@ -13,17 +13,5 @@
     <packaging>jar</packaging>
     <description>Framework-用户中心服务</description>
     <inceptionYear>2019</inceptionYear>
-    <name>${project.artifactId}</name>
 
-    <dependencies>
-        <!-- mybatis -->
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis-spring</artifactId>
-        </dependency>
-    </dependencies>
 </project>

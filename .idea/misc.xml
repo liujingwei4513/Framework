@@ -5,11 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/fw-registry/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/fw-common/pom.xml" />
+        <option value="$PROJECT_DIR$/fw-registry/fw-registry-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/fw-registry/pom.xml" />
       </set>
     </option>
   </component>

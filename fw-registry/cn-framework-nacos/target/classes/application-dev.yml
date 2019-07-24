@@ -1,0 +1,7 @@
+server:
+  port: 8080
+  address: 0.0.0.0
+nacos:
+  config:
+    server-addr: 192.168.1.140:8848
+    namespace: 48224b15-4f0d-49b8-ad83-3acd4f2f2f15

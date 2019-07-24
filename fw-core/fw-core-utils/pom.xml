@@ -15,11 +15,6 @@
     <inceptionYear>2019</inceptionYear>
     <name>${project.artifactId}</name>
     <dependencies>
-        <!-- log4j -->
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-        </dependency>
         <!-- gson -->
         <dependency>
             <groupId>com.google.code.gson</groupId>

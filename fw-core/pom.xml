@@ -13,8 +13,10 @@
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>核心层</description>
+
     <modules>
         <module>fw-core-utils</module>
         <module>fw-core-common</module>
+        <module>fw-core-spring</module>
     </modules>
 </project>

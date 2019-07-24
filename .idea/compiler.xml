@@ -7,9 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fw-core-utils" />
-        <module name="fw-core-common" />
+        <module name="fw-registry-nacos-1" />
         <module name="fw-service-user" />
+        <module name="fw-core-spring" />
+        <module name="fw-service-kafka" />
+        <module name="cn-framework-nacos" />
+        <module name="fw-core-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fw-framework-naos" target="1.5" />
+      <module name="fw-registry" target="1.5" />
+      <module name="fw-registry-nacos" target="1.5" />
+      <module name="fw-registry-nacos-1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fw-framework-naos" options="-parameters" />
+      <module name="fw-registry-nacos-1" options="-parameters" />
+    </option>
   </component>
 </project>
