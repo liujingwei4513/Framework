@@ -1,6 +1,6 @@
-package cn.framework.nacos.controller;
+package fw.framework.nacos.controller;
 
-import cn.framework.nacos.config.DBConfig;
+import fw.framework.nacos.config.DBConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

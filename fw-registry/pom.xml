@@ -15,7 +15,7 @@
     <description>注册中心</description>
 
     <modules>
-        <module>cn-framework-nacos</module>
+        <module>fw-framework-nacos</module>
     </modules>
 
 

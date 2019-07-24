@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cn-framework-nacos</artifactId>
+    <artifactId>fw-framework-nacos</artifactId>
     <description>Nacos注册中心,服务器部署参考官网:https://nacos.io/zh-cn/docs/quick-start.html</description>
     <dependencies>
         <!-- Spring Boot启动 -->

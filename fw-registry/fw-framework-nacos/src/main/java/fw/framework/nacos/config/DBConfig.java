@@ -1,4 +1,4 @@
-package cn.framework.nacos.config;
+package fw.framework.nacos.config;
 
 import com.alibaba.nacos.api.config.annotation.NacosValue;
 import com.alibaba.nacos.spring.context.annotation.config.NacosPropertySource;
